@@ -28,7 +28,7 @@ bool _wrap = true;
 uint8_t _colstart = 0, _rowstart = 0, _tft_type, _rotation = 0, _xstart = 0, _ystart = 0;
 
 // we keept this public
-uint8_t tft_width = 128, tft_height = 160;
+uint8_t tft_width = 160, tft_height = 128;
 
 // because of code compatibilty
 #define _width         tft_width
